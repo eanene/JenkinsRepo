@@ -12,6 +12,11 @@ pipeline {
                 echo 'Building'
             }
         }
+         stage('Ebuka-Test') {
+            steps {
+                echo 'Building'
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploying'
